@@ -6,6 +6,6 @@ example #2
 2. json replay
 
 ```
-export FLASK_APP=../app.py
+export FLASK_APP=flask_demo/app.py
 flask run --host=0.0.0.0
 ```
