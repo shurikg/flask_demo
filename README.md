@@ -1,6 +1,11 @@
 # flask_demo
 Team flask demo
 
-Simple hello world example
-In order to run
-  python app.py
+example #2
+1. more routes
+2. json replay
+
+```
+export FLASK_APP=../app.py
+flask run --host=0.0.0.0
+```
