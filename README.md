@@ -1,9 +1,8 @@
 # flask_demo
 Team flask demo
 
-example #2
-1. more routes
-2. json replay
+example #3
+1. template
 
 ```
 export FLASK_APP=flask_demo/app.py
