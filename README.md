@@ -3,6 +3,7 @@ Team flask demo
 
 example #3
 1. template
+2. parameters
 
 ```
 export FLASK_APP=flask_demo/app.py
