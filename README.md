@@ -1,17 +1,15 @@
 # flask_demo
 Team flask demo
 
-example #3
-1. template
-2. parameters
+example #4
+1. Docker
 
 ```
-export FLASK_APP=flask_demo/app.py
-flask run --host=0.0.0.0
+docker build -t flask_demo .
 ```
 
-In order to see the debug messages
+Run Docker
 
 ```
-export FLASK_DEBUG=1
+docker run -p 5000:80 flask_demo
 ```
