@@ -1,7 +1,7 @@
 # flask_demo
 Team flask demo
 
-example #4
+### Example #4
 1. Docker
 
 ```
@@ -12,4 +12,11 @@ Run Docker
 
 ```
 docker run -p 5000:80 flask_demo
+```
+
+Check the APIs
+```
+curl http://127.0.0.1:5000
+curl http://127.0.0.1:5000/ping
+curl http://127.0.0.1:5000/health
 ```
