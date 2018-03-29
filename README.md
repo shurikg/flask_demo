@@ -2,7 +2,7 @@
 Team flask demo
 
 ### Demo Examples:
-1. Simple hello world example 
+1. simple hello world example 
 2. routers and json response
 3. templates and parameters
 4. docker
