@@ -22,5 +22,11 @@ def health():
 def hi(name=None):
     return render_template('hi.html', name=name)
 
+@app.route("/markdown", methods=['POST'])
+def markd():
+    data = request.get_data()
+    md = markdown.Markdown()
+    return md.convert(base64.b64decode(data) )
+
 if __name__ == '__main__':
     app.run(host="0.0.0.0")
