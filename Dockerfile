@@ -1,5 +1,4 @@
-FROM jazzdd/alpine-flask
+FROM tiangolo/uwsgi-nginx-flask:python2.7-alpine3.7
 
-COPY app.py /app
+COPY app.py /app/main.py
 
-ENTRYPOINT ["/entrypoint.sh"]
