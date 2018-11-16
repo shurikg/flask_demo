@@ -1,3 +1,5 @@
+[![DepShield Badge](https://depshield.sonatype.org/badges/shurikg/flask_demo/depshield.svg)](https://depshield.github.io)
+
 # flask_demo
 Team flask demo
 
