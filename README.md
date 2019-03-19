@@ -19,5 +19,5 @@ flask run --host=0.0.0.0
 
 Check the rest
 ```
-curl http://127.0.0.1:5000
+curl http://127.0.0.1:5000 
 ```
